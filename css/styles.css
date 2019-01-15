@@ -1,5 +1,5 @@
 body {
-  background-color: #E5E5E5;
+  background-color: #FFF1DE;
   font-family: sans-serif;
 }
 
@@ -25,10 +25,13 @@ h1, h3 {
   height: 270px;
   border-radius: 8%;
   font-size: 30px;
+  color: black;
+  box-shadow: 6px 7px lightgrey;
 }
 
-.btnopen {
-  margin-bottom: 0;
+.btn:hover {
+  color: navy;
+  border: 2px solid navy;
 }
 
 /*### Definitions ###*/
@@ -40,6 +43,12 @@ h1, h3 {
   border-radius: 8%;
   margin: auto;
   padding: 5%;
+  box-shadow: 6px 7px lightgrey;
+}
+
+.definition:hover {
+  cursor: pointer;
+  border: 2px solid navy;
 }
 
 /*## Button Colors ##*/
