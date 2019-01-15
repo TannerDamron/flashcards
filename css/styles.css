@@ -1,0 +1,81 @@
+body {
+  background-color: #E5E5E5;
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.jumbotron {
+  padding-top: 1%;
+  background-color: #EFAB73;
+}
+
+.col-md-4 {
+  margin-bottom: 5%;
+}
+
+.btn {
+  width: 200px;
+  height: 270px;
+  border-radius: 8%;
+  font-size: 30px;
+}
+
+.btnopen {
+  margin-bottom: 0;
+}
+
+/*### Definitions ###*/
+.definition {
+  display: none;
+  width: 200px;
+  height: 270px;
+  background-color: white;
+  border-radius: 8%;
+  margin: auto;
+  padding: 5%;
+}
+
+/*## Button Colors ##*/
+
+button, #js {
+  background-color: #AC6327;
+}
+
+button, #variables {
+  background-color: #EFAD73;
+}
+
+button, #functions {
+  background-color: #AC6327;
+}
+
+button, #methods {
+  background-color: #EFAD73;
+}
+
+button, #arguments {
+  background-color: #AC6327;
+}
+
+button, #strings {
+  background-color: #EFAD73;
+}
+
+button, #booleans {
+  background-color: #AC6327;
+}
+
+button, #undefined {
+  background-color: #EFAD73;
+}
+
+button, #jQuery {
+  background-color: #AC6327;
+}
